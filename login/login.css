@@ -6,15 +6,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    flex-direction: column;
+
 }
 
 .login-form {
-    width: 60vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40vw;
+    height: 85vh;
     background-color: beige;
     border-radius: 15px;
+}
+
+.social-login {
+    position: relative;
+
+}
+
+.social {
+    position: absolute;
+    background-color: white;
+
 }
